@@ -1,0 +1,13 @@
+C:\Users\HoboPrime\Desktop\grandCircus\unit2\BlockBuster\BlockBuster\bin\Debug\netcoreapp3.1\BlockBuster.exe
+C:\Users\HoboPrime\Desktop\grandCircus\unit2\BlockBuster\BlockBuster\bin\Debug\netcoreapp3.1\BlockBuster.deps.json
+C:\Users\HoboPrime\Desktop\grandCircus\unit2\BlockBuster\BlockBuster\bin\Debug\netcoreapp3.1\BlockBuster.runtimeconfig.json
+C:\Users\HoboPrime\Desktop\grandCircus\unit2\BlockBuster\BlockBuster\bin\Debug\netcoreapp3.1\BlockBuster.runtimeconfig.dev.json
+C:\Users\HoboPrime\Desktop\grandCircus\unit2\BlockBuster\BlockBuster\bin\Debug\netcoreapp3.1\BlockBuster.dll
+C:\Users\HoboPrime\Desktop\grandCircus\unit2\BlockBuster\BlockBuster\bin\Debug\netcoreapp3.1\BlockBuster.pdb
+C:\Users\HoboPrime\Desktop\grandCircus\unit2\BlockBuster\BlockBuster\obj\Debug\netcoreapp3.1\BlockBuster.csprojAssemblyReference.cache
+C:\Users\HoboPrime\Desktop\grandCircus\unit2\BlockBuster\BlockBuster\obj\Debug\netcoreapp3.1\BlockBuster.AssemblyInfoInputs.cache
+C:\Users\HoboPrime\Desktop\grandCircus\unit2\BlockBuster\BlockBuster\obj\Debug\netcoreapp3.1\BlockBuster.AssemblyInfo.cs
+C:\Users\HoboPrime\Desktop\grandCircus\unit2\BlockBuster\BlockBuster\obj\Debug\netcoreapp3.1\BlockBuster.csproj.CoreCompileInputs.cache
+C:\Users\HoboPrime\Desktop\grandCircus\unit2\BlockBuster\BlockBuster\obj\Debug\netcoreapp3.1\BlockBuster.dll
+C:\Users\HoboPrime\Desktop\grandCircus\unit2\BlockBuster\BlockBuster\obj\Debug\netcoreapp3.1\BlockBuster.pdb
+C:\Users\HoboPrime\Desktop\grandCircus\unit2\BlockBuster\BlockBuster\obj\Debug\netcoreapp3.1\BlockBuster.genruntimeconfig.cache
