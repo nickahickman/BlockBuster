@@ -76,14 +76,16 @@ namespace BlockBuster
             {
                 Console.WriteLine($"{i + 1} {Movies[i].Title} ({Movies[i].GetType().Name})");
             }
+            Console.WriteLine();
         }
 
-        public string CheckOut()
+        public Movie CheckOut()
         {
             PrintMovies();
-            Console.WriteLine("Which movie would you like to check out?");
-            string selection = Console.ReadLine();
-            return selection;
+            int selection = MyLibs.UserInputLibrary.GetMenuSelection("Which of our fine films would you like to see today? ", Movies);
+            
+            return Movies[selection];
+
         }
     }
 }

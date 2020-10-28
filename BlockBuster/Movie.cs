@@ -22,7 +22,7 @@ namespace BlockBuster
         {
             Console.WriteLine($"Title: {Title}");
             Console.WriteLine($"Category: {Category}");
-            Console.WriteLine($"Runtime: {Runtime}");
+            Console.WriteLine($"Runtime: {Runtime}\n");
         }
 
         public void PrintScenes()

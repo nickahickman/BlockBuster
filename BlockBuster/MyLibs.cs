@@ -39,7 +39,7 @@ namespace MyLibs
             return integer;
         }
 
-        public static int GetMenuSelection(string prompt, List<string> options)
+        public static int GetMenuSelection<T>(string prompt, List<T> options)
         {
             string userResponse = GetUserResponse(prompt);
             int selection;
@@ -62,7 +62,7 @@ namespace MyLibs
 
         public static bool GetYesOrNoInput(string prompt)
         {
-            string response = GetUserResponse($"{prompt}? (y/n) ").ToLower();
+            string response = GetUserResponse($"{prompt} (y/n) ").ToLower();
 
             while (response != "y" && response != "n")
             {
@@ -108,7 +108,7 @@ namespace MyLibs
             return response.All(char.IsDigit);
         }
 
-        public static bool OptionExists(int selection, List<string> options)
+        public static bool OptionExists<T>(int selection, List<T> options)
         {
             return selection >= 0 && selection < options.Count;
         }
@@ -154,6 +154,7 @@ namespace MyLibs
             string hr = new string('-', title.Length);
             Console.WriteLine(title);
             Console.WriteLine(hr);
+            Console.WriteLine();
         }
         public static void DrawHr(int length)
         {
