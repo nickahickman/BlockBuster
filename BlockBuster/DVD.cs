@@ -25,7 +25,7 @@ namespace BlockBuster
 
                 Console.Clear();
                 Console.WriteLine($"{Scenes[selectedScene]}");
-                Thread.Sleep(2000);
+                Thread.Sleep(3000);
                 Console.Clear();
 
                 if (!MyLibs.UserInputLibrary.GetYesOrNoInput("Watch Another Scene?"))
@@ -44,7 +44,7 @@ namespace BlockBuster
             {
                 Console.Clear();
                 Console.WriteLine($"{Scenes[i]}");
-                Thread.Sleep(2000);
+                Thread.Sleep(3000);
                 Console.Clear();
             }
         }

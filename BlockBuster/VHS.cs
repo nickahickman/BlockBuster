@@ -23,7 +23,7 @@ namespace BlockBuster
             {
                 Console.WriteLine(Scenes[CurrentTime]);
                 CurrentTime++;
-                Thread.Sleep(2000);
+                Thread.Sleep(3000);
                 Console.Clear();
             }
 
