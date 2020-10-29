@@ -35,6 +35,6 @@ namespace BlockBuster
         }
 
         public abstract void Play();
-
+        public abstract void PlayWholeMovie();
     }
 }

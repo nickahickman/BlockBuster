@@ -11,12 +11,12 @@ namespace BlockBuster
             new DVD("Star Wars: Episode V - The Empire Strikes Back", Genre.Action, 124, new List<string>()
             {
                 "Space Letters Scrolling",
-                "It's Cold, Sleep in the Tantaun",
-                "Obi-Wan's Ghost Gives Instructions",
+                "It's Cold, Let's Sleep in the Tantaun",
+                "Ghost Gives Instructions",
                 "Following Ghost Instructions",
                 "Bounty Hunters ZOMG",
                 "The Empire Closes In",
-                "The Rebel Fleet Wins"
+                "Rebels Achieve Glorious Victory"
             }),
             new DVD("The Matrix", Genre.Action, 136, new List<string>()
             {
@@ -25,18 +25,18 @@ namespace BlockBuster
                 "Morpheus' Got Drugs",
                 "Download Kung Fu Into Your Brain",
                 "AI Doesn't Like Humans",
-                "Lobby Shooting Spree",
+                "Shooty Shooty Bang Bang",
                 "Neo Can Fly Now!"
             }),
             new DVD("Alien", Genre.Horror, 117, new List<string>()
             {
-                "Auto Pilot",
-                "Answering the Call",
-                "Facehugger",
-                "Stick Together",
-                "Into the Airducts",
-                "Escape Plan",
-                "Survivors"
+                "Nostromo Drives While Everyone Sleeps. Neat.",
+                "That Moon Pinged Us. We Should Check it Out, This Will Only Take a Second",
+                "Facehugger Does the Thing",
+                "Stick Together. Finally Some Sense in This Type of Movie",
+                "Use the Vents",
+                "Alien Grappling Hook Burning Chaos",
+                "Napping with Kitty"
             }),
             new VHS("Independence Day", Genre.Action, 145, new List<string>()
             {
@@ -45,27 +45,28 @@ namespace BlockBuster
                 "Aliens Still Just Waiting",
                 "Punching Aliens",
                 "Area 51 OMG!!",
-                "Jeff Goldbloom Hacks Aliens",
-                "Aliens Should Have Used Antivirus, Humans Win Again. Confetti Drops"
+                "Jeff Goldbloom Hacks Aliens Because They Don't Have Norton",
+                "Humans Win Again. Confetti Drops"
             }, 0),
             new VHS("The Evil Dead", Genre.Horror, 85, new List<string>()
             {
-                "The Cabin",
-                "Book of the Dead",
-                "Possession",
-                "Unholy Laughter",
-                "Taste the Blood of Ash",
-                "Last Stand",
-                "Dawn of the Dead"
+                "Let's Go Camping",
+                "You Suck at Drawing, Let the Demon Try",
+                "Cellar Door Opened Itself, Let's Investigate",
+                "8 Track Demon Summoning",
+                "Cheryl Has a Tantrum and Gets A Time Out",
+                "Book Burning Accomplishes Something for Once",
+                "Ash is Safe Now. Time to Walk Home"
             }, 4),
             new VHS("Halloween", Genre.Horror, 91, new List<string>()
             {
-                "All Hallows Eve, 1963",
-                "Haunted House",
-                "The Bogeyman",
-                "Masquerade",
-                "Decorations",
-                "'It Was the Bogeyman'"
+                "Halloween Murder Clown Starts Young",
+                "Kids Say the Darndest Things",
+                "Bad Guy Stalks",
+                "Heavy Breathing Phone Call. NBD",
+                "Masked Psycho Punishes Teenagers for Having Fun",
+                "Bad Guy Gets Shot. Won't Be Seeing Him Again.",
+                "Where Did He Go?!?!?"
             }, 0),
 
     };

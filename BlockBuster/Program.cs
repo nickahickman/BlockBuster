@@ -22,7 +22,15 @@ namespace BlockBuster
 
                 if (watchMovie)
                 {
-                    userSelection.Play();
+                    if (userSelection is VHS)
+                    {
+                        Console.WriteLine(userSelection.CurrentTime);
+                    }
+                    else if (userSelection is DVD)
+                    {
+                        Console.WriteLine("DVDs. How Modern!");
+                    }
+                    //userSelection.PlayWholeMovie();
                 }
                 else 
                 {

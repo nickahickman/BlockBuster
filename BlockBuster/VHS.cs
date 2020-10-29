@@ -38,6 +38,19 @@ namespace BlockBuster
             Console.Clear();
         }
 
+        public override void PlayWholeMovie()
+        {
+            if (CurrentTime > 0)
+            {
+                Console.WriteLine("Ugh, last person didn't rewind this. Just a sec.");
+                Thread.Sleep(1000);
+                Console.WriteLine("Rewinding...");
+                Thread.Sleep(4000);
+                Rewind();
+                Play();
+            }
+        }
+
         public void Rewind()
         {
             CurrentTime = 0;

@@ -16,18 +16,36 @@ namespace BlockBuster
         {
             Console.Clear();
 
-            PrintScenes();
-            int selectedScene = MyLibs.UserInputLibrary.GetMenuSelection("Which scene do you want to watch?", Scenes);
-
-            Console.Clear();
-
-            for (int i = selectedScene; i < Scenes.Count; i++)
+            while (true)
             {
+                PrintScenes();
+                int selectedScene = MyLibs.UserInputLibrary.GetMenuSelection("Which scene do you want to watch? ", Scenes);
+
+                Console.Clear();
+
+                Console.Clear();
+                Console.WriteLine($"{Scenes[selectedScene]}");
+                Thread.Sleep(2000);
+                Console.Clear();
+
+                if (!MyLibs.UserInputLibrary.GetYesOrNoInput("Watch Another Scene?"))
+                {
+                    break;
+                }
+            }
+           
+            Console.Clear();
+        }
+
+        public override void PlayWholeMovie()
+        {
+            for (int i = 0; i < Scenes.Count; i++)
+            {
+                Console.Clear();
                 Console.WriteLine($"{Scenes[i]}");
                 Thread.Sleep(2000);
+                Console.Clear();
             }
-
-            Console.Clear();
         }
     }
 }
