@@ -39,7 +39,7 @@ namespace BlockBuster
                 {
                     Console.WriteLine("Fine, I guess. Enjoy your movie at home or whatever, nerd");
                     Thread.Sleep(2000);
-                    Console.Clear();
+                    break;
                 }
             }
         }
