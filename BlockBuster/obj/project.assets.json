@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\HoboPrime\\.nuget\\packages\\": {}
+    "C:\\Users\\Nick\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HoboPrime\\Desktop\\grandCircus\\unit2\\BlockBuster\\BlockBuster\\BlockBuster.csproj",
+      "projectUniqueName": "C:\\Users\\Nick\\Documents\\GC\\BlockBuster\\BlockBuster\\BlockBuster.csproj",
       "projectName": "BlockBuster",
-      "projectPath": "C:\\Users\\HoboPrime\\Desktop\\grandCircus\\unit2\\BlockBuster\\BlockBuster\\BlockBuster.csproj",
-      "packagesPath": "C:\\Users\\HoboPrime\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HoboPrime\\Desktop\\grandCircus\\unit2\\BlockBuster\\BlockBuster\\obj\\",
+      "projectPath": "C:\\Users\\Nick\\Documents\\GC\\BlockBuster\\BlockBuster\\BlockBuster.csproj",
+      "packagesPath": "C:\\Users\\Nick\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nick\\Documents\\GC\\BlockBuster\\BlockBuster\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HoboPrime\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Nick\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

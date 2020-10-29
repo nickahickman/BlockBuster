@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading;
 
 namespace BlockBuster
 {
@@ -8,7 +9,7 @@ namespace BlockBuster
         static void Main(string[] args)
         {
             BlockBuster bb = new BlockBuster();
-            //use thread.sleep to change scenes on vhs
+           
             while (true)
             {
                 MyLibs.ConsoleLibrary.DrawTitle("Welcome to GC Blockbuster!");
@@ -21,11 +22,13 @@ namespace BlockBuster
 
                 if (watchMovie)
                 {
-
+                    userSelection.Play();
                 }
                 else 
-                { 
-                
+                {
+                    Console.WriteLine("Fine, I guess. Enjoy your movie at home or whatever, nerd");
+                    Thread.Sleep(2000);
+                    Console.Clear();
                 }
             }
         }

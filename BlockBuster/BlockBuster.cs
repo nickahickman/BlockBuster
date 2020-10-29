@@ -10,23 +10,23 @@ namespace BlockBuster
         {
             new DVD("Star Wars: Episode V - The Empire Strikes Back", Genre.Action, 124, new List<string>()
             {
-                "The Phantom Menace",
-                "Ice Planet Hoth",
-                "Obi-Wan's Instructions",
-                "Leaving for Dagobah",
-                "Bounty Hunters",
+                "Space Letters Scrolling",
+                "It's Cold, Sleep in the Tantaun",
+                "Obi-Wan's Ghost Gives Instructions",
+                "Following Ghost Instructions",
+                "Bounty Hunters ZOMG",
                 "The Empire Closes In",
-                "The Rebel Fleet"
+                "The Rebel Fleet Wins"
             }),
             new DVD("The Matrix", Genre.Action, 136, new List<string>()
             {
-                "Trinity In a Jam",
-                "They're Coming For You",
-                "Morpheus' Proposal",
-                "Training Begins",
-                "Virus to be Cured",
+                "Trinity Freeze Frame!",
+                "They're Coming to Get You Neo",
+                "Morpheus' Got Drugs",
+                "Download Kung Fu Into Your Brain",
+                "AI Doesn't Like Humans",
                 "Lobby Shooting Spree",
-                "He Is the One"
+                "Neo Can Fly Now!"
             }),
             new DVD("Alien", Genre.Horror, 117, new List<string>()
             {
@@ -40,14 +40,14 @@ namespace BlockBuster
             }),
             new VHS("Independence Day", Genre.Action, 145, new List<string>()
             {
-                "Contact",
-                "At the White House",
-                "Countdown to Extinction",
-                "Welcome to Earth",
-                "Area 51",
-                "Execute 'Jolly Roger'",
-                "Victory"
-            }, 14),
+                "Aliens hover ominously",
+                "90's White House Fantasy",
+                "Aliens Still Just Waiting",
+                "Punching Aliens",
+                "Area 51 OMG!!",
+                "Jeff Goldbloom Hacks Aliens",
+                "Aliens Should Have Used Antivirus, Humans Win Again. Confetti Drops"
+            }, 0),
             new VHS("The Evil Dead", Genre.Horror, 85, new List<string>()
             {
                 "The Cabin",
@@ -57,7 +57,7 @@ namespace BlockBuster
                 "Taste the Blood of Ash",
                 "Last Stand",
                 "Dawn of the Dead"
-            }, 85),
+            }, 4),
             new VHS("Halloween", Genre.Horror, 91, new List<string>()
             {
                 "All Hallows Eve, 1963",
@@ -66,7 +66,7 @@ namespace BlockBuster
                 "Masquerade",
                 "Decorations",
                 "'It Was the Bogeyman'"
-            }, 2),
+            }, 0),
 
     };
 

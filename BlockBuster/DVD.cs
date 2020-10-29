@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 
 namespace BlockBuster
 {
@@ -13,7 +14,20 @@ namespace BlockBuster
         }
         public override void Play()
         {
-            throw new NotImplementedException();
+            Console.Clear();
+
+            PrintScenes();
+            int selectedScene = MyLibs.UserInputLibrary.GetMenuSelection("Which scene do you want to watch?", Scenes);
+
+            Console.Clear();
+
+            for (int i = selectedScene; i < Scenes.Count; i++)
+            {
+                Console.WriteLine($"{Scenes[i]}");
+                Thread.Sleep(2000);
+            }
+
+            Console.Clear();
         }
     }
 }

@@ -30,7 +30,7 @@ namespace BlockBuster
             for (int i = 0; i < Scenes.Count; i++)
             {
                 string scene = Scenes[i];
-                Console.WriteLine($"{i}: {scene}");
+                Console.WriteLine($"{i+1}: {scene}");
             }
         }
 
