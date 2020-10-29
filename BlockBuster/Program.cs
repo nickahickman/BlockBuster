@@ -19,18 +19,21 @@ namespace BlockBuster
                 userSelection.PrintInfo();
 
                 bool watchMovie = MyLibs.UserInputLibrary.GetYesOrNoInput("Great choice! You wanna like, hang out and watch that here?");
-
+                
                 if (watchMovie)
                 {
-                    if (userSelection is VHS)
+                    bool playWholeMovie = MyLibs.UserInputLibrary.GetYesOrNoInput("Are we watching the whole thing?");
+
+                    if (playWholeMovie)
                     {
-                        Console.WriteLine(userSelection.CurrentTime);
+                        Console.Clear();
+                        userSelection.PlayWholeMovie();
                     }
-                    else if (userSelection is DVD)
+                    else
                     {
-                        Console.WriteLine("DVDs. How Modern!");
+                        Console.Clear();
+                        userSelection.Play();
                     }
-                    //userSelection.PlayWholeMovie();
                 }
                 else 
                 {

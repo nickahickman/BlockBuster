@@ -30,7 +30,7 @@ namespace MyLibs
 
             while (!IsInteger(userResponse) || int.Parse(userResponse) > max)
             {
-                userResponse = GetUserResponse($"I need a numerical response. {prompt}");
+                userResponse = GetUserResponse($"Invalid response. {prompt}");
             }
 
             integer = int.Parse(userResponse);

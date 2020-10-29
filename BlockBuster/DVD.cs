@@ -32,6 +32,7 @@ namespace BlockBuster
                 {
                     break;
                 }
+                Console.Clear();
             }
            
             Console.Clear();

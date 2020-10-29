@@ -49,6 +49,10 @@ namespace BlockBuster
                 Rewind();
                 Play();
             }
+            else 
+            {
+                Play();
+            }
         }
 
         public void Rewind()

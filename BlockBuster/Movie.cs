@@ -20,7 +20,7 @@ namespace BlockBuster
         }
         public virtual void PrintInfo()
         {
-            Console.WriteLine($"Title: {Title}");
+            Console.WriteLine($"\nTitle: {Title}");
             Console.WriteLine($"Category: {Category}");
             Console.WriteLine($"Runtime: {Runtime}\n");
         }

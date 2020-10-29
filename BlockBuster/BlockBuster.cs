@@ -10,10 +10,10 @@ namespace BlockBuster
         {
             new DVD("Star Wars: Episode V - The Empire Strikes Back", Genre.Action, 124, new List<string>()
             {
-                "Space Letters Scrolling",
+                "Space Words Slowly Pass",
                 "It's Cold, Let's Sleep in the Tantaun",
                 "Ghost Gives Instructions",
-                "Following Ghost Instructions",
+                "Luke Follows Ghost Instructions",
                 "Bounty Hunters ZOMG",
                 "The Empire Closes In",
                 "Rebels Achieve Glorious Victory"
@@ -47,7 +47,7 @@ namespace BlockBuster
                 "Area 51 OMG!!",
                 "Jeff Goldbloom Hacks Aliens Because They Don't Have Norton",
                 "Humans Win Again. Confetti Drops"
-            }, 0),
+            }, 2),
             new VHS("The Evil Dead", Genre.Horror, 85, new List<string>()
             {
                 "Let's Go Camping",
@@ -57,14 +57,14 @@ namespace BlockBuster
                 "Cheryl Has a Tantrum and Gets A Time Out",
                 "Book Burning Accomplishes Something for Once",
                 "Ash is Safe Now. Time to Walk Home"
-            }, 4),
+            }, 1),
             new VHS("Halloween", Genre.Horror, 91, new List<string>()
             {
                 "Halloween Murder Clown Starts Young",
                 "Kids Say the Darndest Things",
                 "Bad Guy Stalks",
-                "Heavy Breathing Phone Call. NBD",
-                "Masked Psycho Punishes Teenagers for Having Fun",
+                "Heavy Breathing Phone Call. Probs Just a Prank",
+                "Masked Psycho Ruins Teenage Halloween",
                 "Bad Guy Gets Shot. Won't Be Seeing Him Again.",
                 "Where Did He Go?!?!?"
             }, 0),
